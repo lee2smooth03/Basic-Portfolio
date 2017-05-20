@@ -1,29 +1,29 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
 	<title>All About Me: Arthur R.</title>
-	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 <!-- goal is to create a website using the things we've learned so far about css and html: divs, positions, padding, margins, etc. -->
 
-	<header>
+	<header id="mainHead">
 		<!-- page header -->
-		<!-- saw somewhere that this is called a "hero" -->
-		
-		<div>
+
+		<div id="hero">
+			<!-- saw somewhere that this is called a "hero" and I like the term, so...yup -->
 			<!-- we'll use div elements to create this button -->
 			<!-- even though <button></button> already exists -->
-			<h1>Arthur L. Rozier, IV</h1>
+			<a href="index.html" class="top"><h1>Arthur L. Rozier, IV</h1></a>
 		</div>
 
-		<div>
+		<div id="headerNav">
 			<!-- these are the buttons that will navigate pages -->
 			<!-- even thought <nav></nav> sections already exist-->
-			<div><a href="#">About</a></div>
-			<div><a href="contact.html">Contact</a></div>
-			<div><a href="portfolio.html">Portfolio</a></div>
+			<div class="navi"><a href="index.html">About</a></div>
+			<div class="navi"><a href="contact.html">Contact</a></div>
+			<div class="navi"><a href="portfolio.html">Portfolio</a></div>
 		</div>
 	</header>
 
@@ -31,23 +31,24 @@
 		<!-- greyed background; contains main section and the aside -->
 		<!-- needs padding on all sides to help center the information -->
 
-		<div>
+		<div id="mainCont">
 			<!-- about me section contains picture and a few choice words -->
 			<!-- needs some padding to push words and picture away from edge -->
 
-			<header>
+			<header id="subHead">
 				<!-- heading the section -->
 				<h2>About Me</h2>
 				<hr>
 			</header>
 			
-			<div>
-				<div>
+			<div id="subCont">
+
+				<div id="picCont">
 					<!-- contains my profile picture; contained in a <div> to float words around it -->
 					<img src="assets/images/@JoleonWedding.02.jpg">
 				</div>
 
-				<div>
+				<div id="sayCont">
 					<!-- some words about me; contained in a <div> to wrap around my text -->
 					<p>Look at me now. Born in south Georgia- my roots are still there; raised southeast of Atlanta: Decatur, where it's Greater.</p>
 			
@@ -71,8 +72,8 @@
 
 			<a href="#"><img height="64px" width="64px" src="assets/images/Linked Logo.svg"></a>
 			<a href="#"><img height="64px" width="64px" src="assets/images/Stack Ov. Logo.svg"></a>
-			<a href="#"><img height="64px" width="64px" src="assets/images/GitHub Logo.svg"></a>
-			<a href="#"><img height="64px" width="64px" src="assets/images/FB Logo.svg"></a>
+			<a href="https://github.com/"><img height="64px" width="64px" src="assets/images/GitHub Logo.svg"></a>
+			<a href="https://www.facebook.com/arthur.l.rozier"><img height="64px" width="64px" src="assets/images/FB Logo.svg"></a>
 		</aside>
 	</section>
 
